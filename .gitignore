@@ -1,4 +1,48 @@
-﻿venv/
+﻿# Virtual Environments & Packages
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Python Cache & Bytecode
 __pycache__/
+*.py[cod]
+*.class
+*.pytest_cache/
+
+# Streamlit Local Config & Secrets
 .streamlit/
-*.pyc
+.streamlit/secrets.toml
+
+# Private Credentials & API Keys
+*.key
+*.pem
+*.token
+*.crt
+*secret*
+*credential*
+
+# OS & Editor Metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Images, Photos, and Media (Keeps repos clean of personal media)
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.gif
+*.webp
+*.bmp
+
+# Large or System Logs
+*.log
+*.tmp
+*.temp
+
+# Document drafts (if you do not want your personal report on GitHub)
+*.docx
+*.pdf
